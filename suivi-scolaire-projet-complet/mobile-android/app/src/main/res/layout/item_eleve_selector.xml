@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardEleveSelector"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginEnd="14dp"
+    android:paddingTop="4dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/textViewInitiales"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_badge_info"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="AB" />
+
+    <TextView
+        android:id="@+id/textViewPrenomEleve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="11sp"
+        android:textColor="@color/text_secondary"
+        android:text="Prénom" />
+
+</LinearLayout>
